@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a3c50;
+    padding: 20px;
+    color:black;
+}
+
+
+
+
+.container {
+    background: white ;
+    color:#fff;
+    border-radius:10px;
+    padding:20px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h2 {
+    color: #277794;
+}
+
+
+nav {
+    background: #eaeaea;
+    color:black ;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#yo2{
+    border:1px solid black;
+    border-radius:5px;
+}
+.map-user h3 {
+    color: black;
+}
+
+.users-section, .backend-roles {
+    margin-top: 20px;
+}
+
+.users-section button, .backend-roles button {
+    background-color: #277794;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#remove{
+color:white;
+border:2px solid black;
+}
+
+.backend-roles .remove {
+    background: rgb(239, 68, 68);
+}
+
+.actions {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.actions .cancel {
+    background: lightgray;
+}
+
+.actions .map {
+    background: lightgray;
+    color: black;
+}

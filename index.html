@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirated spy Dashboards</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2 style="color:black;">Pirated Spy Dashboards</h2>
+            <nav style="border:2px solid black;">
+                <span><strong>Security</strong></span> &gt; <span><strong>Roles</strong></span> &gt; <span><strong>all_access</strong></span> &gt; <strong>USER INTERFACE </strong>
+            </nav>
+        </header>
+
+        <section class="map-user">
+            <h3>User Fill the Information</h3>
+            <p style="color:black;"> Users to this role to inherit role permissions.</p>
+
+            <div class="users-section">
+                <label style="color:black;">Users</label>
+                <select>
+                    <option>Select user</option>s
+                    <option>USER 1</option>
+                    <option>USER 2</option>
+                    <option>USER 3</option>
+
+                </select>
+                <a href="login.html"> <button id ="yo1" style="border:2px solid black;"> Create new internal Users</button></a>
+                
+                
+            </div>
+
+            <div class="backend-roles">
+                <label style="color:black;" >Backend roles</label>
+                <input id="yo2" type="text" placeholder="your_role_arn">
+                <button class="remove"  id="remove">Remove</button>
+                <button class="add-role" style="border:2px solid black;">Add another backend role</button>
+            </div>
+
+            <div class="actions">
+                <button class="cancel">Cancel</button>
+                <button class="map">Map</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
