@@ -5,6 +5,11 @@ import requests
 import json
 import logging
 
+import os
+print(f"OPENSEARCH_HOST: {os.getenv('OPENSEARCH_HOST')}")
+
+
+
 OPENSEARCH_HOST= getenv("OPENSEARCH_HOST")
 
 REGION = getenv("AWS_REGION", "us-east-1")

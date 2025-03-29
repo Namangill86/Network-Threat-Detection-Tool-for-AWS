@@ -15,7 +15,9 @@ lambda_cli = client("lambda", region_name=AWS_REGION)
 cloudwatch_cli = client("cloudwatch", region_name=AWS_REGION)
 sns_cli = client("sns", region_name=AWS_REGION)
 
-time_now = datetime.utcnow()
+from datetime import timezone
+time_now = datetime.now(timezone.utc)
+
 time_anomly_period = time_now - timedelta(minutes=ANOMALY_EVAL_MINUTES)
 time_yesterday = time_anomly_period - timedelta(days=1)
 
